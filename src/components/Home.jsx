@@ -18,10 +18,14 @@ function Home() {
           <div className="image">
             <img src={home} alt="image" />
           </div>
+          <div className="ellipse-container">
+            <div className="ellipse pink"></div>
+            <div className="ellipse orange"></div>
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default Home
+export default Home 
